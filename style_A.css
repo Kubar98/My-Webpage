@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    /* background-color: paleturquoise; */
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 0 0 0 10px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li a {
+    justify-content: start;
+  }
+  
+  nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    justify-content: left;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid green;
+    /* background-color: red; */
+    /* justify-content: space-between */
+  }
+  
+  .hero-logo img {
+    width: 340px;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 25px 0 0 0px;
+  }
+  .hero-photo img {
+    /* position: absolute; */
+    width: 950px;
+    height: 250px;
+    align-items: center;
+    justify-content: left;
+    padding: 25px 0 0 50px;
+  }
+  
+  .hero1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: seagreen; */
+  }
+  
+  .hero-logo1 img {
+    width: 340px;
+    height: auto;
+    display: flex;
+    /* background-color: aqua; */
+    /* margin: 10px; */
+    padding: 15px 5px 0 2px;
+  }
+  
+  /* .hero1 p {
+      text-decoration: aqua;
+      text-align: center;
+      font-size: larger;
+  } */
+  
+  /* .photo1 img {
+    width: 980px;
+    height: 250px;
+    align-items: center;
+    justify-content: right;
+    padding: 25px 0 0 50px;
+  } */
+  
+  .articles {
+    width: 950px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-left: 45px;
+    /* background-color: blue; */
+  }
+  
+  .articles article {
+    width: 49%;
+    /* background-color: bisque; */
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid green;
+  }
+
+  
+  /* .article img {
+    width: auto;
+    height: auto;
+  } */
+
+  footer {
+    background-color: paleturquoise;
+    padding: 20px 0;
+  }
